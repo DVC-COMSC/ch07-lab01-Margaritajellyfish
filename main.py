@@ -3,7 +3,7 @@
 # Make your Code
 # ******************************
 numbers =[] 
-for i range(5):
+for i in range(5):
     number = int(input())
     numbers.append(number)
 
