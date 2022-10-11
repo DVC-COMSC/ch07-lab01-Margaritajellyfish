@@ -2,7 +2,11 @@
 # ******************************
 # Make your Code
 # ******************************
-numbers = list(map(int, input().split()))
+numbers =[] 
+for i range(5):
+    number = int(input())
+    numbers.append(number)
+
 maxnum = max(numbers)
 minnum = min(numbers)
 numbers.remove(maxnum)
