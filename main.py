@@ -3,10 +3,10 @@
 # Make your Code
 # ******************************
 numbers = list(map(int, input().split()))
-max = numbers.max()
-min = numbers.min()
-numbers.remove(max)
-numbers.remove(min)
+max_ = max(numbers)
+min_ = min(numbers)
+numbers.remove(max_)
+numbers.remove(min_)
 sum = 0
 for i in range(len(numbers)):
     sum += numbers[i]
